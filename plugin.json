@@ -1,0 +1,21 @@
+{
+    "id": "ai-debugger",
+    "name": "AI Debugger",
+    "author": "christian-hnl",
+    "version": "1.0.0",
+    "description": "Select a server and let Claude find and fix everything that crashes it: client-side mods, missing dependencies, outdated or incompatible mods and broken configs. Creates a restorable backup first.",
+    "category": "plugin",
+    "url": "https://github.com/christian-hnl/pelican-ai-debuger",
+    "update_url": null,
+    "namespace": "ChristianHnl\\AiDebugger",
+    "class": "AiDebuggerPlugin",
+    "panels": [
+        "admin",
+        "server"
+    ],
+    "panel_version": null,
+    "api_version": 1,
+    "composer_packages": {
+        "anthropic-ai/sdk": "^0.57"
+    }
+}
