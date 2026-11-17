@@ -16,6 +16,6 @@
     "panel_version": null,
     "api_version": 1,
     "composer_packages": {
-        "anthropic-ai/sdk": "^0.57"
+        "anthropic-ai/sdk": "^1.9"
     }
 }
